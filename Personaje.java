@@ -23,17 +23,17 @@ public class Personaje {
     }
 
     public void bajarVida(int cantidad) {
-        int danioFinal = cantidad;
+        int dañoFinal = cantidad;
         
         if (protegido) {
-            danioFinal = cantidad / 2;
-            System.out.println("¡" + nombre + " está protegido! El daño se reduce de " + cantidad + " a " + danioFinal);
+            dañoFinal = cantidad / 2;
+            System.out.println("¡" + nombre + " está protegido! El daño se reduce de " + cantidad + " a " + dañoFinal);
         }
 
-        this.puntosVida -= danioFinal;
+        this.puntosVida -= dañoFinal;
         if (this.puntosVida < 0) this.puntosVida = 0;
         
-        System.out.println(nombre + " ha recibido " + danioFinal + " puntos de daño. Vida restante: " + puntosVida);
+        System.out.println(nombre + " ha recibido " + dañoFinal + " puntos de daño. Vida restante: " + puntosVida);
     }
 
     public void curar(int cantidad) {
