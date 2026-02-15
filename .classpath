@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding=".git/logs/refs/remotes/origin/|.git/logs/refs/heads/|.git/refs/remotes/origin/|.git/refs/heads/" kind="src" path=""/>
+	<classpathentry kind="src" path=".git/logs/refs/heads"/>
+	<classpathentry kind="src" path=".git/logs/refs/remotes/origin"/>
+	<classpathentry kind="src" path=".git/refs/heads"/>
+	<classpathentry kind="src" path=".git/refs/remotes/origin"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
